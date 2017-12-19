@@ -1,0 +1,20 @@
+<root>
+<world>
+<continent name="Europe">
+<country name="UK">
+	<city>London</city>
+	<city>Manchester</city>
+</country>
+<country name="Bulgaria">
+	<city>Sofia</city>
+	<city>Plovdiv</city>
+</country> 
+</continent>
+<continent name="Asia">
+<country name="Japan">
+	<city>Tokyo</city>
+	<city>Osaka</city>
+</country>
+</continent>
+</world>
+</root>

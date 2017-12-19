@@ -1,0 +1,20 @@
+<root>
+<world>
+<continent name="Europe">
+<country name="Poland">
+	<city>Warsaw</city>
+	<city>Poznan</city>
+</country>
+<country name="Bulgaria">
+	<city>Sofia</city>
+	<city>Burgas</city>
+</country> 
+</continent>
+<continent name="Asia">
+<country name="Russia">
+	<city>Moscow</city>
+	<city>SaintPetersburg</city>
+</country>
+</continent>
+</world>
+</root>

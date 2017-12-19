@@ -27,13 +27,11 @@ namespace CityReader.Runners
         }
 
         public IObservable<Unit> Run()
-        {            
-            _fileWatcherService.WatchFiles()
+        {
+            return _fileWatcherService.WatchFiles()
                 .SelectMany(fullPath => _cityRepository.GetCities(fullPath))
-                .Do(cities => PrintArray(cities))                
-                .Wait();
-
-            return Observable.Return(Unit.Default);
+                .Do(cities => PrintArray(cities))
+                .Select(_ => Unit.Default);
         }
 
         private static void PrintArray(string[] input)
